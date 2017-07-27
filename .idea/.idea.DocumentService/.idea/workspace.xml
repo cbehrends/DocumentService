@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ee469b87-ee6f-4a5c-ae05-510cc9a6a92b" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="DocumentController.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DocumentService/Controllers/DocumentController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-45">
+              <caret line="0" column="29" lean-forward="false" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
+              <folding>
+                <marker date="1501017837439" expanded="true" signature="6:153" ph="..." />
+                <marker date="1501017837439" expanded="true" signature="193:2402" ph="{...}" />
+                <marker date="1501017837439" expanded="true" signature="247:2400" ph="{...}" />
+                <marker date="1501017837439" expanded="true" signature="307:2390" ph="{...}" />
+                <marker date="1501017837439" expanded="true" signature="424:824" ph="{...}" />
+                <marker date="1501017837439" expanded="true" signature="711:799" ph="{...}" />
+                <marker date="1501017837439" expanded="true" signature="862:925" ph="{...}" />
+                <marker date="1501017837439" expanded="true" signature="1223:2344" ph="{...}" />
+                <marker date="1501017837439" expanded="true" signature="1368:2314" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImageFunctions.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DocumentService/Helpers/ImageFunctions.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-397">
+              <caret line="90" column="61" lean-forward="false" selection-start-line="90" selection-start-column="61" selection-end-line="90" selection-end-column="61" />
+              <folding>
+                <marker date="1501017837455" expanded="true" signature="6:222" ph="..." />
+                <marker date="1501017837455" expanded="true" signature="257:5014" ph="{...}" />
+                <marker date="1501017837455" expanded="true" signature="291:5012" ph="{...}" />
+                <marker date="1501017837455" expanded="true" signature="410:1128" ph="{...}" />
+                <marker date="1501017837455" expanded="true" signature="1018:1082" ph="{...}" />
+                <marker date="1501017837455" expanded="true" signature="1195:1337" ph="{...}" />
+                <marker date="1501017837455" expanded="true" signature="1451:2670" ph="{...}" />
+                <marker date="1501017837455" expanded="true" signature="2087:2626" ph="{...}" />
+                <marker date="1501017837455" expanded="true" signature="2469:2541" ph="{...}" />
+                <marker date="1501017837455" expanded="true" signature="2784:3261" ph="{...}" />
+                <marker date="1501017837455" expanded="true" signature="3151:3215" ph="{...}" />
+                <marker date="1501017837455" expanded="true" signature="3375:3852" ph="{...}" />
+                <marker date="1501017837455" expanded="true" signature="3742:3806" ph="{...}" />
+                <marker date="1501017837455" expanded="true" signature="3958:4410" ph="{...}" />
+                <marker date="1501017837455" expanded="true" signature="4300:4364" ph="{...}" />
+                <marker date="1501017837455" expanded="true" signature="4451:4647" ph="{...}" />
+                <marker date="1501017837455" expanded="true" signature="4699:5006" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomeController.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DocumentService/Controllers/HomeController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1500412727751" expanded="false" signature="6:106" ph="..." />
+                <marker date="1500412727751" expanded="true" signature="145:331" ph="{...}" />
+                <marker date="1500412727751" expanded="true" signature="192:329" ph="{...}" />
+                <marker date="1500412727751" expanded="true" signature="234:323" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DocumentViewModel.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DocumentService/Models/DocumentViewModel.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+              <folding>
+                <marker date="1501015356348" expanded="true" signature="6:47" ph="..." />
+                <marker date="1501015356348" expanded="true" signature="82:182" ph="{...}" />
+                <marker date="1501015356348" expanded="true" signature="119:180" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/DocumentService/Models/DocumentViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DocumentService/Helpers/ImageFunctions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DocumentService/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DocumentService/Controllers/DocumentController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DocumentService/Global.asax.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/DocumentService/Global.asax.cs" />
+        <option value="$PROJECT_DIR$/DocumentService/Models/DocumentViewModel.cs" />
+        <option value="$PROJECT_DIR$/DocumentService/Helpers/ImageFunctions.cs" />
+        <option value="$PROJECT_DIR$/DocumentService/Controllers/DocumentController.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DocumentService (1 project)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DocumentService" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DocumentService (1 project)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DocumentService" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Models" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DocumentService (1 project)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DocumentService" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected=".NET Project.Default">
+    <configuration default="true" type="DotNetProject" factoryName=".NET Project">
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration default="false" name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/DocumentService/DocumentService.csproj" />
+      <option name="PROJECT_KIND" value="Web" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.5.2" />
+      <option name="EXE_PATH" value="C:/Program Files/IIS Express/iisexpress.exe" />
+      <option name="PROGRAM_PARAMETERS" value="/config:$PROJECT_DIR$/.idea/config/applicationhost.config /site:DocumentService /apppool:Clr4IntegratedAppPool" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue=".NET Project.Default" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ee469b87-ee6f-4a5c-ae05-510cc9a6a92b" name="Default" comment="" />
+      <created>1500943110059</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1500943110059</updated>
+      <workItem from="1500943115639" duration="1961000" />
+      <workItem from="1501015097789" duration="2740000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4701000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/DocumentService/Controllers/DocumentController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="43" column="50" lean-forward="true" selection-start-line="43" selection-start-column="50" selection-end-line="43" selection-end-column="50" />
+          <folding>
+            <marker date="1501017837439" expanded="true" signature="6:153" ph="..." />
+            <marker date="1501017837439" expanded="true" signature="193:2402" ph="{...}" />
+            <marker date="1501017837439" expanded="true" signature="247:2400" ph="{...}" />
+            <marker date="1501017837439" expanded="true" signature="307:2390" ph="{...}" />
+            <marker date="1501017837439" expanded="true" signature="424:824" ph="{...}" />
+            <marker date="1501017837439" expanded="true" signature="711:799" ph="{...}" />
+            <marker date="1501017837439" expanded="true" signature="862:925" ph="{...}" />
+            <marker date="1501017837439" expanded="true" signature="1223:2344" ph="{...}" />
+            <marker date="1501017837439" expanded="true" signature="1368:2314" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DocumentService/Helpers/ImageFunctions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <marker date="1501017837455" expanded="true" signature="6:222" ph="..." />
+            <marker date="1501017837455" expanded="true" signature="257:5014" ph="{...}" />
+            <marker date="1501017837455" expanded="true" signature="291:5012" ph="{...}" />
+            <marker date="1501017837455" expanded="true" signature="410:1128" ph="{...}" />
+            <marker date="1501017837455" expanded="true" signature="1018:1082" ph="{...}" />
+            <marker date="1501017837455" expanded="true" signature="1195:1337" ph="{...}" />
+            <marker date="1501017837455" expanded="true" signature="1451:2670" ph="{...}" />
+            <marker date="1501017837455" expanded="true" signature="2087:2626" ph="{...}" />
+            <marker date="1501017837455" expanded="true" signature="2469:2541" ph="{...}" />
+            <marker date="1501017837455" expanded="true" signature="2784:3261" ph="{...}" />
+            <marker date="1501017837455" expanded="true" signature="3151:3215" ph="{...}" />
+            <marker date="1501017837455" expanded="true" signature="3375:3852" ph="{...}" />
+            <marker date="1501017837455" expanded="true" signature="3742:3806" ph="{...}" />
+            <marker date="1501017837455" expanded="true" signature="3958:4410" ph="{...}" />
+            <marker date="1501017837455" expanded="true" signature="4300:4364" ph="{...}" />
+            <marker date="1501017837455" expanded="true" signature="4451:4647" ph="{...}" />
+            <marker date="1501017837455" expanded="true" signature="4699:5006" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DocumentService/Global.asax.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DocumentService/Models/DocumentViewModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <marker date="1501015356348" expanded="true" signature="6:47" ph="..." />
+            <marker date="1501015356348" expanded="true" signature="82:182" ph="{...}" />
+            <marker date="1501015356348" expanded="true" signature="119:180" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DocumentService/Helpers/ImageFunctions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-397">
+          <caret line="90" column="61" lean-forward="false" selection-start-line="90" selection-start-column="61" selection-end-line="90" selection-end-column="61" />
+          <folding>
+            <marker date="1501017837455" expanded="true" signature="6:222" ph="..." />
+            <marker date="1501017837455" expanded="true" signature="257:5014" ph="{...}" />
+            <marker date="1501017837455" expanded="true" signature="291:5012" ph="{...}" />
+            <marker date="1501017837455" expanded="true" signature="410:1128" ph="{...}" />
+            <marker date="1501017837455" expanded="true" signature="1018:1082" ph="{...}" />
+            <marker date="1501017837455" expanded="true" signature="1195:1337" ph="{...}" />
+            <marker date="1501017837455" expanded="true" signature="1451:2670" ph="{...}" />
+            <marker date="1501017837455" expanded="true" signature="2087:2626" ph="{...}" />
+            <marker date="1501017837455" expanded="true" signature="2469:2541" ph="{...}" />
+            <marker date="1501017837455" expanded="true" signature="2784:3261" ph="{...}" />
+            <marker date="1501017837455" expanded="true" signature="3151:3215" ph="{...}" />
+            <marker date="1501017837455" expanded="true" signature="3375:3852" ph="{...}" />
+            <marker date="1501017837455" expanded="true" signature="3742:3806" ph="{...}" />
+            <marker date="1501017837455" expanded="true" signature="3958:4410" ph="{...}" />
+            <marker date="1501017837455" expanded="true" signature="4300:4364" ph="{...}" />
+            <marker date="1501017837455" expanded="true" signature="4451:4647" ph="{...}" />
+            <marker date="1501017837455" expanded="true" signature="4699:5006" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DocumentService/Controllers/HomeController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1500412727751" expanded="false" signature="6:106" ph="..." />
+            <marker date="1500412727751" expanded="true" signature="145:331" ph="{...}" />
+            <marker date="1500412727751" expanded="true" signature="192:329" ph="{...}" />
+            <marker date="1500412727751" expanded="true" signature="234:323" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DocumentService/Controllers/DocumentController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-45">
+          <caret line="0" column="29" lean-forward="false" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
+          <folding>
+            <marker date="1501017837439" expanded="true" signature="6:153" ph="..." />
+            <marker date="1501017837439" expanded="true" signature="193:2402" ph="{...}" />
+            <marker date="1501017837439" expanded="true" signature="247:2400" ph="{...}" />
+            <marker date="1501017837439" expanded="true" signature="307:2390" ph="{...}" />
+            <marker date="1501017837439" expanded="true" signature="424:824" ph="{...}" />
+            <marker date="1501017837439" expanded="true" signature="711:799" ph="{...}" />
+            <marker date="1501017837439" expanded="true" signature="862:925" ph="{...}" />
+            <marker date="1501017837439" expanded="true" signature="1223:2344" ph="{...}" />
+            <marker date="1501017837439" expanded="true" signature="1368:2314" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

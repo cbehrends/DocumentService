@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="LMSNetDocumentsModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'LMSNetDocuments.dbo.NewDocumentManagement' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="NewDocumentManagement">
+          <Key>
+            <PropertyRef Name="DocGUID" />
+            <PropertyRef Name="FileNumber" />
+            <PropertyRef Name="DocPath" />
+            <PropertyRef Name="DateAttached" />
+          </Key>
+          <Property Name="DocGUID" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="FileNumber" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="DocPath" Type="nvarchar" MaxLength="250" Nullable="false" />
+          <Property Name="TypeID" Type="uniqueidentifier" />
+          <Property Name="AccountCode" Type="varchar" MaxLength="50" />
+          <Property Name="DescriptionField" Type="varchar" MaxLength="250" />
+          <Property Name="Approval" Type="bit" />
+          <Property Name="CarrierInfo" Type="bit" />
+          <Property Name="Load_UnloadReceipt" Type="bit" />
+          <Property Name="DeliveryReceipt" Type="bit" />
+          <Property Name="ACH_QuickPayForm" Type="bit" />
+          <Property Name="ARInvoice" Type="bit" />
+          <Property Name="ProofOfDelivery" Type="bit" />
+          <Property Name="Comcheck" Type="bit" />
+          <Property Name="InsuranceDocument" Type="bit" />
+          <Property Name="CarrierInvoice" Type="bit" />
+          <Property Name="factoringInfo" Type="bit" />
+          <Property Name="WeightOrScaleTicket" Type="bit" />
+          <Property Name="EmailMessage" Type="bit" />
+          <Property Name="CashReceipt" Type="bit" />
+          <Property Name="Credit" Type="bit" />
+          <Property Name="LoadDetail" Type="bit" />
+          <Property Name="Contract" Type="bit" />
+          <Property Name="FaxConfirmation" Type="bit" />
+          <Property Name="PrintWithInvoices" Type="bit" />
+          <Property Name="PrintWithChecks" Type="bit" />
+          <Property Name="DisplayInList" Type="bit" />
+          <Property Name="DateAttached" Type="datetime" Nullable="false" />
+          <Property Name="EnteredBy" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityContainer Name="LMSNetDocumentsModelStoreContainer">
+          <EntitySet Name="NewDocumentManagement" EntityType="Self.NewDocumentManagement" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [NewDocumentManagement].[DocGUID] AS [DocGUID], 
+    [NewDocumentManagement].[FileNumber] AS [FileNumber], 
+    [NewDocumentManagement].[DocPath] AS [DocPath], 
+    [NewDocumentManagement].[TypeID] AS [TypeID], 
+    [NewDocumentManagement].[AccountCode] AS [AccountCode], 
+    [NewDocumentManagement].[DescriptionField] AS [DescriptionField], 
+    [NewDocumentManagement].[Approval] AS [Approval], 
+    [NewDocumentManagement].[CarrierInfo] AS [CarrierInfo], 
+    [NewDocumentManagement].[Load_UnloadReceipt] AS [Load_UnloadReceipt], 
+    [NewDocumentManagement].[DeliveryReceipt] AS [DeliveryReceipt], 
+    [NewDocumentManagement].[ACH_QuickPayForm] AS [ACH_QuickPayForm], 
+    [NewDocumentManagement].[ARInvoice] AS [ARInvoice], 
+    [NewDocumentManagement].[ProofOfDelivery] AS [ProofOfDelivery], 
+    [NewDocumentManagement].[Comcheck] AS [Comcheck], 
+    [NewDocumentManagement].[InsuranceDocument] AS [InsuranceDocument], 
+    [NewDocumentManagement].[CarrierInvoice] AS [CarrierInvoice], 
+    [NewDocumentManagement].[factoringInfo] AS [factoringInfo], 
+    [NewDocumentManagement].[WeightOrScaleTicket] AS [WeightOrScaleTicket], 
+    [NewDocumentManagement].[EmailMessage] AS [EmailMessage], 
+    [NewDocumentManagement].[CashReceipt] AS [CashReceipt], 
+    [NewDocumentManagement].[Credit] AS [Credit], 
+    [NewDocumentManagement].[LoadDetail] AS [LoadDetail], 
+    [NewDocumentManagement].[Contract] AS [Contract], 
+    [NewDocumentManagement].[FaxConfirmation] AS [FaxConfirmation], 
+    [NewDocumentManagement].[PrintWithInvoices] AS [PrintWithInvoices], 
+    [NewDocumentManagement].[PrintWithChecks] AS [PrintWithChecks], 
+    [NewDocumentManagement].[DisplayInList] AS [DisplayInList], 
+    [NewDocumentManagement].[DateAttached] AS [DateAttached], 
+    [NewDocumentManagement].[EnteredBy] AS [EnteredBy]
+    FROM [dbo].[NewDocumentManagement] AS [NewDocumentManagement]</DefiningQuery>
+          </EntitySet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="LMSNetDocumentsModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="NewDocumentManagement">
+          <Key>
+            <PropertyRef Name="DocGUID" />
+            <PropertyRef Name="FileNumber" />
+            <PropertyRef Name="DocPath" />
+            <PropertyRef Name="DateAttached" />
+          </Key>
+          <Property Name="DocGUID" Type="Guid" Nullable="false" />
+          <Property Name="FileNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="DocPath" Type="String" MaxLength="250" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="TypeID" Type="Guid" />
+          <Property Name="AccountCode" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="DescriptionField" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+          <Property Name="Approval" Type="Boolean" />
+          <Property Name="CarrierInfo" Type="Boolean" />
+          <Property Name="Load_UnloadReceipt" Type="Boolean" />
+          <Property Name="DeliveryReceipt" Type="Boolean" />
+          <Property Name="ACH_QuickPayForm" Type="Boolean" />
+          <Property Name="ARInvoice" Type="Boolean" />
+          <Property Name="ProofOfDelivery" Type="Boolean" />
+          <Property Name="Comcheck" Type="Boolean" />
+          <Property Name="InsuranceDocument" Type="Boolean" />
+          <Property Name="CarrierInvoice" Type="Boolean" />
+          <Property Name="factoringInfo" Type="Boolean" />
+          <Property Name="WeightOrScaleTicket" Type="Boolean" />
+          <Property Name="EmailMessage" Type="Boolean" />
+          <Property Name="CashReceipt" Type="Boolean" />
+          <Property Name="Credit" Type="Boolean" />
+          <Property Name="LoadDetail" Type="Boolean" />
+          <Property Name="Contract" Type="Boolean" />
+          <Property Name="FaxConfirmation" Type="Boolean" />
+          <Property Name="PrintWithInvoices" Type="Boolean" />
+          <Property Name="PrintWithChecks" Type="Boolean" />
+          <Property Name="DisplayInList" Type="Boolean" />
+          <Property Name="DateAttached" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="EnteredBy" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityContainer Name="LMSNetDocumentsEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="NewDocumentManagements" EntityType="Self.NewDocumentManagement" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="LMSNetDocumentsModelStoreContainer" CdmEntityContainer="LMSNetDocumentsEntities">
+          <EntitySetMapping Name="NewDocumentManagements">
+            <EntityTypeMapping TypeName="LMSNetDocumentsModel.NewDocumentManagement">
+              <MappingFragment StoreEntitySet="NewDocumentManagement">
+                <ScalarProperty Name="DocGUID" ColumnName="DocGUID" />
+                <ScalarProperty Name="FileNumber" ColumnName="FileNumber" />
+                <ScalarProperty Name="DocPath" ColumnName="DocPath" />
+                <ScalarProperty Name="TypeID" ColumnName="TypeID" />
+                <ScalarProperty Name="AccountCode" ColumnName="AccountCode" />
+                <ScalarProperty Name="DescriptionField" ColumnName="DescriptionField" />
+                <ScalarProperty Name="Approval" ColumnName="Approval" />
+                <ScalarProperty Name="CarrierInfo" ColumnName="CarrierInfo" />
+                <ScalarProperty Name="Load_UnloadReceipt" ColumnName="Load_UnloadReceipt" />
+                <ScalarProperty Name="DeliveryReceipt" ColumnName="DeliveryReceipt" />
+                <ScalarProperty Name="ACH_QuickPayForm" ColumnName="ACH_QuickPayForm" />
+                <ScalarProperty Name="ARInvoice" ColumnName="ARInvoice" />
+                <ScalarProperty Name="ProofOfDelivery" ColumnName="ProofOfDelivery" />
+                <ScalarProperty Name="Comcheck" ColumnName="Comcheck" />
+                <ScalarProperty Name="InsuranceDocument" ColumnName="InsuranceDocument" />
+                <ScalarProperty Name="CarrierInvoice" ColumnName="CarrierInvoice" />
+                <ScalarProperty Name="factoringInfo" ColumnName="factoringInfo" />
+                <ScalarProperty Name="WeightOrScaleTicket" ColumnName="WeightOrScaleTicket" />
+                <ScalarProperty Name="EmailMessage" ColumnName="EmailMessage" />
+                <ScalarProperty Name="CashReceipt" ColumnName="CashReceipt" />
+                <ScalarProperty Name="Credit" ColumnName="Credit" />
+                <ScalarProperty Name="LoadDetail" ColumnName="LoadDetail" />
+                <ScalarProperty Name="Contract" ColumnName="Contract" />
+                <ScalarProperty Name="FaxConfirmation" ColumnName="FaxConfirmation" />
+                <ScalarProperty Name="PrintWithInvoices" ColumnName="PrintWithInvoices" />
+                <ScalarProperty Name="PrintWithChecks" ColumnName="PrintWithChecks" />
+                <ScalarProperty Name="DisplayInList" ColumnName="DisplayInList" />
+                <ScalarProperty Name="DateAttached" ColumnName="DateAttached" />
+                <ScalarProperty Name="EnteredBy" ColumnName="EnteredBy" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

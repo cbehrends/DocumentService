@@ -1,0 +1,4 @@
+2017-07-26 21:01:56,733
+INFO  {log4net:Identity=, log4net:UserName=HP\user, log4net:HostName=hp} DocumentController.GetDocuments
+GetDocuments for InvoiceID: 861647
+
